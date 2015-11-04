@@ -1,0 +1,12 @@
+[package]
+
+name = "graph"
+version = "0.0.1"
+authors = [ "Daniel Yule <yule@cs.dal.ca>" ]
+
+[lib]
+name = "graph"
+crate-type = ["dylib"]
+
+[dependencies]
+rustc-serialize = "0.3"
